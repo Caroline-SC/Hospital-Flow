@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caroline-SC/Hospital-Flow.git"
+  },
+  "author": "Caroline-SC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caroline-SC/Hospital-Flow/issues"
+  },
+  "homepage": "https://github.com/Caroline-SC/Hospital-Flow#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
